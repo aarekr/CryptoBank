@@ -70,10 +70,10 @@ img {
 }
 
 /*.hero .container {
-    background: url('../images/center-pic.png') no-repeat;
+    background: url('../images/Fiat-to-crypto.png') no-repeat;
     background-size: contain;
     background-position: center bottom;
-    height: 550px;
+    height: 200px;
 }*/
 
 .hero .hero-content {
@@ -83,6 +83,10 @@ img {
 .hero .hero-text {
     width: 70%;
     margin-bottom: 15px;
+}
+
+.hero .hero-image {
+    margin-top: 30px;
 }
 
 /* Utility Classes */
