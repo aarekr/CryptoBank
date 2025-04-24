@@ -89,6 +89,21 @@ img {
     margin-top: 30px;
 }
 
+/* Video */
+.video {
+    padding: 0px 0 20px;
+}
+
+.video-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-preview {
+    margin-bottom: 10px;
+}
+
 /* Utility Classes */
 .container {
     max-width: 1100px;
@@ -173,4 +188,25 @@ img {
 
 .text-center {
     text-align: center;
+}
+
+/* Background */
+.bg-primary {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.bg-light {
+    background: var(--light-color);
+    color: #333;
+}
+
+.bg-dark {
+    background: var(--dark-color);
+    color: #333;
+}
+
+.bg-black {
+    background: #000;
+    color: #fff;
 }
