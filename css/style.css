@@ -7,7 +7,7 @@
 :root {
     --primary-color: #2f76e0;
     --light-color: #ddddfa;
-    --dark-color: #141313;
+    --dark-color: #292727;
 }
 
 body {
@@ -91,7 +91,7 @@ img {
 
 /* Video */
 .video {
-    padding: 0px 0 20px;
+    padding: 10px 0 30px;
 }
 
 .video-content {
@@ -102,6 +102,27 @@ img {
 
 .video-preview {
     margin-bottom: 10px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 10px 0;
+}
+
+.testimonials .testimonials-heading {
+    width: 700px;
+    margin-bottom: 40px;
+}
+
+.testimonials-grid {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.testimonials .card p:nth-child(2) {
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 /* Utility Classes */
@@ -179,7 +200,7 @@ img {
     margin: 15px 0 10px;
 }
 
-.text-md {
+.text-sm {
     font-size: 0.9rem;
     line-height: 1.4;
     font-weight: normal;
@@ -203,10 +224,18 @@ img {
 
 .bg-dark {
     background: var(--dark-color);
-    color: #333;
+    color: #fff;
 }
 
 .bg-black {
     background: #000;
     color: #fff;
+}
+
+/* Card */
+.card {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
 }
